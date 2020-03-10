@@ -99,7 +99,7 @@ class Application(tk.Frame):
         # 帮助
         menu3 = tk.Menu(menubar, tearoff=0)
         menubar.add_cascade(label='帮助', menu=menu3)
-        menu3.add_command(label='关于', command=self.say_hi)
+        menu3.add_command(label='突破', command=self.say_hi)
         menu3.add_command(label='使用说明', command=self.help)
         menu3.add_separator()
         menu3.add_command(label='捐赠', command=self.donate)
@@ -148,9 +148,9 @@ class Application(tk.Frame):
         self.frame2 = tk.Frame(self.section, padx=5, pady=5)
         self.section.add(self.frame2, text='探索')
 
-        # 创建选项卡4---关于
+        # 创建选项卡4---突破
         self.frame3 = tk.Frame(self.section)
-        self.section.add(self.frame3, text='关于')
+        self.section.add(self.frame3, text='突破')
 
         self.section.pack(fill=tk.BOTH, expand=True)
 

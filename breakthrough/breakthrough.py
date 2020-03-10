@@ -16,7 +16,7 @@ class Breakthrough(Fighter):
 
     def valid_position(self, target_pos):
         # 获取突破位置可点击的有效区域
-        return ((target_pos[0][0] + 85, target_pos[0][1] + 25), (target_pos[1][0] - 20, target_pos[1][1] - 15))
+        return ((target_pos[0][0] + 100, target_pos[0][1] + 40), (target_pos[1][0] - 20, target_pos[1][1] - 15))
 
     def attack_position(self, target_pos):
         # 获取突破位置的进攻按钮
