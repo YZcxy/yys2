@@ -1,0 +1,69 @@
+2020 Mar 10 22:46:16 onmyoji.py        [line:119] INFO    root      UAC pass
+2020 Mar 10 22:46:16 fighter.py        [line:51 ] INFO    root      绑定窗口成功
+2020 Mar 10 22:46:16 fighter.py        [line:52 ] INFO    root      197990
+2020 Mar 10 22:46:16 fighter.py        [line:56 ] INFO    root      激活窗口成功
+2020 Mar 10 22:46:17 utilities.py      [line:43 ] INFO    root      使用默认延迟参数
+2020 Mar 10 22:46:17 utilities.py      [line:49 ] INFO    root      延迟参数: {1: (1000, 500), 2: (1300, 800), 3: (1800, 1200), 4: (2500, 1500), 5: (3000, 2000)}
+2020 Mar 10 22:46:17 utilities.py      [line:25 ] INFO    root      创建延迟参数，等级: 1
+2020 Mar 10 22:46:17 breakthrough.py   [line:31 ] INFO    root      检测是否在结界突破页面
+2020 Mar 10 22:46:17 breakthrough.py   [line:33 ] INFO    root      页面正确，进入下一步
+2020 Mar 10 22:46:17 fighter.py        [line:240] INFO    root      点击 突破目标
+2020 Mar 10 22:46:19 fighter.py        [line:247] INFO    root      点击 突破目标 成功
+2020 Mar 10 22:46:21 fighter.py        [line:240] INFO    root      点击 进攻
+2020 Mar 10 22:46:21 fighter.py        [line:247] INFO    root      点击 进攻 成功
+2020 Mar 10 22:46:21 fighter.py        [line:69 ] INFO    root      检测是否进入战斗
+2020 Mar 10 22:46:27 fighter.py        [line:71 ] INFO    root      已进入战斗
+2020 Mar 10 22:46:27 fighter.py        [line:240] INFO    root      点击 退出按钮
+2020 Mar 10 22:46:29 fighter.py        [line:247] INFO    root      点击 退出按钮 成功
+2020 Mar 10 22:46:29 fighter.py        [line:240] INFO    root      点击 确认退出
+2020 Mar 10 22:46:32 fighter.py        [line:247] INFO    root      点击 确认退出 成功
+2020 Mar 10 22:46:32 breakthrough.py   [line:41 ] INFO    root      等待突破结束
+2020 Mar 10 22:46:34 breakthrough.py   [line:43 ] INFO    root      突破结束
+2020 Mar 10 22:46:34 breakthrough.py   [line:46 ] INFO    root      突破结果为：2
+2020 Mar 10 22:46:35 fighter.py        [line:240] INFO    root      点击 结算
+2020 Mar 10 22:46:37 fighter.py        [line:247] INFO    root      点击 结算 成功
+2020 Mar 10 22:46:38 fighter.py        [line:240] INFO    root      点击 突破目标
+2020 Mar 10 22:46:40 fighter.py        [line:247] INFO    root      点击 突破目标 成功
+2020 Mar 10 22:46:41 fighter.py        [line:240] INFO    root      点击 进攻
+2020 Mar 10 22:46:42 fighter.py        [line:247] INFO    root      点击 进攻 成功
+2020 Mar 10 22:46:42 fighter.py        [line:69 ] INFO    root      检测是否进入战斗
+2020 Mar 10 22:46:48 fighter.py        [line:71 ] INFO    root      已进入战斗
+2020 Mar 10 22:46:48 breakthrough.py   [line:41 ] INFO    root      等待突破结束
+2020 Mar 10 22:47:51 breakthrough.py   [line:43 ] INFO    root      突破结束
+2020 Mar 10 22:47:51 breakthrough.py   [line:46 ] INFO    root      突破结果为：1
+2020 Mar 10 22:47:52 fighter.py        [line:240] INFO    root      点击 结算
+2020 Mar 10 22:47:54 fighter.py        [line:240] INFO    root      点击 结算
+2020 Mar 10 22:47:56 fighter.py        [line:240] INFO    root      点击 结算
+2020 Mar 10 22:47:58 fighter.py        [line:240] INFO    root      点击 结算
+2020 Mar 10 22:48:00 fighter.py        [line:247] INFO    root      点击 结算 成功
+2020 Mar 10 22:48:00 breakthrough.py   [line:162] WARNING root      当前挑战次数->1，当前成功突破次数->1
+2020 Mar 10 22:48:01 fighter.py        [line:240] INFO    root      点击 突破目标
+2020 Mar 10 22:48:03 fighter.py        [line:247] INFO    root      点击 突破目标 成功
+2020 Mar 10 22:48:04 fighter.py        [line:240] INFO    root      点击 进攻
+2020 Mar 10 22:48:06 fighter.py        [line:247] INFO    root      点击 进攻 成功
+2020 Mar 10 22:48:06 fighter.py        [line:69 ] INFO    root      检测是否进入战斗
+2020 Mar 10 22:48:11 fighter.py        [line:71 ] INFO    root      已进入战斗
+2020 Mar 10 22:48:11 breakthrough.py   [line:41 ] INFO    root      等待突破结束
+2020 Mar 10 22:48:50 breakthrough.py   [line:43 ] INFO    root      突破结束
+2020 Mar 10 22:48:50 breakthrough.py   [line:46 ] INFO    root      突破结果为：1
+2020 Mar 10 22:48:51 fighter.py        [line:240] INFO    root      点击 结算
+2020 Mar 10 22:48:52 fighter.py        [line:240] INFO    root      点击 结算
+2020 Mar 10 22:48:54 fighter.py        [line:240] INFO    root      点击 结算
+2020 Mar 10 22:48:56 fighter.py        [line:240] INFO    root      点击 结算
+2020 Mar 10 22:48:58 fighter.py        [line:247] INFO    root      点击 结算 成功
+2020 Mar 10 22:48:58 breakthrough.py   [line:162] WARNING root      当前挑战次数->2，当前成功突破次数->2
+2020 Mar 10 22:48:59 fighter.py        [line:240] INFO    root      点击 突破目标
+2020 Mar 10 22:49:00 fighter.py        [line:247] INFO    root      点击 突破目标 成功
+2020 Mar 10 22:49:02 fighter.py        [line:240] INFO    root      点击 进攻
+2020 Mar 10 22:49:03 fighter.py        [line:247] INFO    root      点击 进攻 成功
+2020 Mar 10 22:49:03 fighter.py        [line:69 ] INFO    root      检测是否进入战斗
+2020 Mar 10 22:49:07 fighter.py        [line:71 ] INFO    root      已进入战斗
+2020 Mar 10 22:49:07 breakthrough.py   [line:41 ] INFO    root      等待突破结束
+2020 Mar 10 22:49:24 breakthrough.py   [line:43 ] INFO    root      突破结束
+2020 Mar 10 22:49:24 breakthrough.py   [line:46 ] INFO    root      突破结果为：1
+2020 Mar 10 22:49:24 fighter.py        [line:240] INFO    root      点击 结算
+2020 Mar 10 22:49:26 fighter.py        [line:240] INFO    root      点击 结算
+2020 Mar 10 22:49:29 fighter.py        [line:240] INFO    root      点击 结算
+2020 Mar 10 22:49:31 fighter.py        [line:247] INFO    root      点击 结算 成功
+2020 Mar 10 22:49:31 breakthrough.py   [line:162] WARNING root      当前挑战次数->3，当前成功突破次数->3
+2020 Mar 10 22:49:31 breakthrough.py   [line:153] INFO    root      成功突破:3次，等待新的一轮
