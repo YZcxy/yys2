@@ -40,6 +40,7 @@ class GameScene():
             :param scene: 需要切换到的场景:1-8
             :return: 切换成功返回True；切换失败直接退出
         '''
+        time.sleep(2)
         scene_now = self.get_scene()
         self.log.info('目前场景：' + str(scene_now))
         if scene_now == scene:
