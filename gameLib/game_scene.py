@@ -40,7 +40,6 @@ class GameScene():
             :param scene: 需要切换到的场景:1-8
             :return: 切换成功返回True；切换失败直接退出
         '''
-        time.sleep(2)
         scene_now = self.get_scene()
         self.log.info('目前场景：' + str(scene_now))
         if scene_now == scene:
@@ -57,23 +56,17 @@ class GameScene():
                 self.click_until('探索灯笼', 'img/JUE-XING.png', *
                                  TansuoPos.tansuo_denglong, 2)
 
-                # 递归
-                self.switch_to_scene(scene)
-
         elif scene_now == 2:
             # 探索界面
             if scene == 3 or scene == 4:
                 # 点击最后章节
                 self.click_until('最后章节', 'img/TAN-SUO.png',
                                  *TansuoPos.last_chapter, 2)
-                # 递归
-                self.switch_to_scene(scene)
+                
             elif scene in [5, 6, 7, 8]:
                 # 点击御魂按钮
                 self.click_until('御魂菜单', 'img/BA-QI-DA-SHE.png',
                                  *YuhunPos.yuhun_menu, 2)
-                # 递归
-                self.switch_to_scene(scene)
 
         elif scene_now == 3:
             # 章节界面
@@ -81,12 +74,10 @@ class GameScene():
                 # 点击探索按钮
                 self.click_until('探索按钮', 'img/YING-BING.png',
                                  *TansuoPos.tansuo_btn, 2)
-                # 递归
-                self.switch_to_scene(scene)
+               
             elif scene in [5, 6, 7, 8]:
                 self.click_until('退出章节', 'img/JUE-XING.png',
                                  *TansuoPos.quit_last_chapter, 2)
-                self.switch_to_scene(scene)
 
         elif scene_now == 4:
             # 探索内
@@ -98,8 +89,6 @@ class GameScene():
                 # 点击确认
                 self.click_until('确认按钮', 'img\\QUE-REN.png',
                                  *TansuoPos.confirm_btn, 1, False)
-                # 递归
-                self.switch_to_scene(scene)
 
         elif scene_now == 5:
             # 御魂菜单内
@@ -107,17 +96,16 @@ class GameScene():
                 # 点击御魂
                 self.click_until_knn('御魂选项', 'img/TIAO-ZHAN.png',
                                      *YuhunPos.yuhun_btn, 2, thread=20)
-                # 递归
-                self.switch_to_scene(scene)
+               
             elif scene == 7:
                 # 点击业原火
                 self.click_until_knn('业原火选项', 'img/TIAO-ZHAN.png',
                                      *YuhunPos.yeyuanhuo_btn, 2, thread=20)
-                # 递归
-                self.switch_to_scene(scene)
+               
             elif scene == 8:
                 # 点击卑弥呼
                 self.click_until_knn('卑弥呼选项', 'img/TIAO-ZHAN.png',
                                      *YuhunPos.beimihu_btn, 2, thread=20)
-                # 递归
-                self.switch_to_scene(scene)
+        time.sleep(2)
+        # 递归
+        self.switch_to_scene(scene)
