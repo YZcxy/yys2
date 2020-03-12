@@ -116,11 +116,13 @@ class ExploreFight(Fighter):
             length = end_x - star_x
 
             # 计算拖放范围
-            pos_end_x = int(star_x + length/100*self.slide_shikigami_progress)
-            pos_end_y = TansuoPos.n_slide[0][1]
+            pos_start_x = int(star_x + length/100*self.slide_shikigami_progress)
+            pos_start_y = TansuoPos.n_slide[0][1] + random.randint(1,10)
+            
+            pos_end_x = star_x + random.randint(1,10)
+            pos_end_y = TansuoPos.n_slide[0][1] + random.randint(1,10)
 
-            self.yys.mouse_drag_bg(
-                TansuoPos.n_slide[0], (pos_end_x, pos_end_y))
+            self.yys.mouse_drag_bg((pos_start_x, pos_start_y), (pos_end_x, pos_end_y))
             time.sleep(1)
 
         # 更换狗粮
