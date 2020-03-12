@@ -66,19 +66,19 @@ class ExploreFight(Fighter):
         gouliang = []
         if 1 in self.gouliang:
             gouliang.append(self.yys.find_game_img(
-                'img\\MAN2.png', 1, *TansuoPos.gouliang_left, 1, 0.8))
+                'img\\MAN2.png', 1, *TansuoPos.gouliang_left, 1, 0.6))
         if 2 in self.gouliang:
             gouliang.append(self.yys.find_game_img(
-                'img\\MAN2.png', 1, *TansuoPos.gouliang_middle, 1, 0.8))
+                'img\\MAN2.png', 1, *TansuoPos.gouliang_middle, 1, 0.6))
         if 3 in self.gouliang:
             gouliang.append(self.yys.find_game_img(
-                'img\\MAN2.png', 1, *TansuoPos.gouliang_right, 1, 0.8))
+                'img\\MAN2.png', 1, *TansuoPos.gouliang_right, 1, 0.6))
         if 4 in self.gouliang:
             gouliang.append(self.yys.find_game_img(
-                'img\\MAN2.png', 1, *TansuoPos.gouliang_leftback, 1, 0.8))
+                'img\\MAN2.png', 1, *TansuoPos.gouliang_leftback, 1, 0.6))
         if 5 in self.gouliang:
             gouliang.append(self.yys.find_game_img(
-                'img\\MAN2.png', 1, *TansuoPos.gouliang_rightback, 1, 0.8))
+                'img\\MAN2.png', 1, *TansuoPos.gouliang_rightback, 1, 0.6))
 
         # 如果都没满则退出
         res = False
@@ -120,7 +120,7 @@ class ExploreFight(Fighter):
             pos_end_y = TansuoPos.n_slide[0][1]
 
             self.yys.mouse_drag_bg(
-                TansuoPos.n_slide[0], (pos_end_x, pos_end_y))
+                (TansuoPos.n_slide[0][0],TansuoPos.n_slide[0][1]+35), (pos_end_x, pos_end_y+35))
             time.sleep(1)
 
         # 更换狗粮
