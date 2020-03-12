@@ -28,7 +28,7 @@ class GameScene():
             'img/JIA-CHENG.png', 'img/JUE-XING.png', 'img/TAN-SUO.png', 'img/YING-BING.png', 'img/BA-QI-DA-SHE.png', 'img/TIAO-ZHAN.png')
 
         scene_cof = max(maxVal)
-        if scene_cof > 0.8:
+        if scene_cof > 0.85:
             scene = maxVal.index(scene_cof)
             return scene + 1
         else:
