@@ -92,7 +92,7 @@ def secondposition():
     获得点击位置，扣除御魂部分
         :return: 返回随机位置坐标
     '''
-    return (random.randint(970, 1111), random.randint(100, 452))
+    return (random.randint(900, 1050), random.randint(200, 430))
 
 
 def checkposition(pos):
