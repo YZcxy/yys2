@@ -101,8 +101,8 @@ def checkposition(pos):
         :param pos: (x, y)位置坐标
         :return: 如果合适返回True，否则返回False
     '''
-    if pos[0] < 1111 and pos[0] > 970:
-        if pos[1] < 452 and pos[1] > 100:
+    if pos[0] < 1050 and pos[0] > 900:
+        if pos[1] < 430 and pos[1] > 200:
             return True
     return False
 
